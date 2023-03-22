@@ -73,15 +73,14 @@
     {%- capture url -%}
     {{ site.social.links.linkedin }}
     {%- endcapture -%}
-    {% when 'email' %}
-    {% assign email = site.social.email | split: '@' %}
+    {% when 'meetup' %}
     {%- capture url -%}
-    javascript:location.href = 'mailto:' + ['{{ email[0] }}','{{ email[1] }}'].join('@')
+    {{ site.social.links.meetup }}
     {%- endcapture -%}
-    {% when 'rss' %}
-    {% assign url = '/feed.xml' | relative_url %}
-    {% else %}
-    {% assign url = entry.url %}
+    {% when 'discord' %}
+    {%- capture url -%}
+    {{ site.social.links.discord }}
+    {%- endcapture -%}
     {% endcase %}
 
     {% if url %}

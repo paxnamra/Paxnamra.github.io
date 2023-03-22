@@ -6,13 +6,20 @@
 - type: linkedin
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 
-- type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
+- type: discord
+  icon: 'fab fa-discord'
 
-- type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+- type: meetup
+  icon: 'fab fa-meetup'
+
+
+#- type: email
+#  icon: 'fas fa-envelope'
+#  noblank: true            # open link in current tab
+
+#- type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 #
