@@ -2,7 +2,7 @@
 layout: post
 title:  "Robię sobie sabbatical"
 date:   2023-03-15 23:57:58 +0100
-categories: [Sabbatical_Pl]
+categories: [Sabbatical PL]
 tags: [in polish]
 ---
 
@@ -34,7 +34,7 @@ postanowiłam temat lekko zoptymalizować. Piszę raz, tutaj, a potem tylko wysy
 
 ## Status 3 miesiące później
 W grudniu i styczniu schodziły ze mnie stresy związane z pędem z dowożeniem tasków, naprawianiem bugów, spinaniem się, presją, dedlajnami, zrywaniem się rano na wariata na daily.
-Właściwie to brakiem czasu na cokolwiek innego niż praca. Oraz nieumiejętnością odcinania się, gdy dedlajny gonią, w zespole jak zwykle duża rotacja, wiedza ucieka do innej firmy z lepszą ofertą, 
+Właściwie to brakiem czasu na cokolwiek innego niż praca. Oraz nieumiejętnością odcinania się, gdy dedlajny gonią, w zespole jak zwykle duża rotacja, wiedza ucieka do innej firmy pracować za lepsze pieniądze, 
 a ja zostaję ekspertem od wszystkiego, przy jednocześnie wcale nie tak dużym doświadczeniu. Czym są 2-3 lata przy 7-10 i więcej?
 
 W lutym udało mi się wreszcie wyluzować, wreszcie odpuścić. Odpoczynek prawie bez dotykania kodu czyni cuda. Wysypianie się również. Piekielnie trudna sprawa, tak prawie nic nie pisać.
@@ -46,7 +46,7 @@ Ze świeżą głową spośród tych zakurzonych dziwactw zalegających od paru d
 Trochę czasu zeszło na researchu, kminieniu co się wysypało i dlaczego, rozjaśnianiu niejasności w dokumentacji...
 
 **I oto jest.** Tak powstała moja mała przestrzeń na Github Pages do pisania o technologiach około javowo-pythonowych :)
-Okazjonalnie przestrzeń do pisania o takich sabbaticalach co teraz. Jedyny temat, który przewiduję po polsku, reszta będzie w typowo globalnym angielskim.
+Okazjonalnie przestrzeń do pisania o takich sabbaticalach co teraz. Jedyny temat, który przewiduję po polsku, reszta będzie w typowo w języku branży - po amgielsku.
 
 ## Plan na kolejne 3 miesiące
 Projekciki na Githuba, te większe, które mam zaplanowane, ale i mniejsze by tam skupić się bardziej na pisaniu testów, albo w ogóle zrobić je w TDD.
@@ -63,7 +63,8 @@ Updejt profilu na LI, który od 2 lat jaki był taki jest, czyli nieruszony. Opi
 ## Powrót do rzeczywistości
 W czerwcu.
 
-W kwietniu i maju chcę mieć czas by śmigać rowerem, gdy świeci piękne słońce, ale nie ma jeszcze morderczych temperatur. 
+W kwietniu i maju chcę mieć czas by śmigać rowerem, biegać, ruszać się ogólnie, gdy świeci piękne słońce, ale nie ma jeszcze morderczych temperatur. 
 Ludzie wtedy zazwyczaj siedzą w pracy od 8-9 do 16-17, a na aktywność na powietrzu zostaje tylko pare godzin. 
-W taki sposób odpada z moich zmartwień proszenie o specjalne pozwolenie przełożonego/przełożonych, wyścigi o urlop w wybranym terminie, 
-uzgadnianie z klientem czy w ogóle wypada bym brała wolne, gdy on ma przecież ciśnenie na ficzury i tylko szybko i jeszcze szybciej trzeba robić.
+W taki sposób odpada z moich zmartwień proszenie o specjalne pozwolenie przełożonego/przełożonych by skończyć wcześniej lub zacząć w takich godzinach by skończyć wcześniej,
+wyścigi o urlop w wybranym terminie, uzgadnianie z klientem czy w ogóle wypada bym brała wolne, gdy on ma przecież ciśnenie na ficzury 
+i tylko szybko i jeszcze szybciej trzeba robić.

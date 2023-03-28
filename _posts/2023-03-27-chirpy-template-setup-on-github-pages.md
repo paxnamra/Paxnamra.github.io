@@ -8,23 +8,24 @@ tags: [jekyll, github pages]
 When I began setting up this blog, I thought it would be quite simple and it would only take a moment. At least that's what the instructions were promising.
 In reality, it turned into a short blog post, which I hope will be useful to someone. So here's the guide how to do it, how I did it.
 ## Get the Chirpy template
-There are two ways to create a blog with this template. Both are described on the [**chirpy.cotes.page**](https://chirpy.cotes.page/posts/getting-started/) provided by the author, main contributor, therefore no sense of repeating it again.
-The Wiki in the repository's readme leads to a deployed demo version of this template, where handful of tips on how to use it, can be found.
+There are two ways to create a blog with this template. Whichever way you choose for your base, you will have to have a copy of it in your github.
+The Wiki with tips how to use this template can be found on deployed by the autor [**chirpy.cotes.page**](https://chirpy.cotes.page/posts/getting-started/) demo version fo the page.
+Project's repository has links to it.
 ### Chirpy starter
 A small codebase with several basic files, clean structure, ideal to just come and start building something.
 As easy as two or three clicks of the mouse is forking this repository and setting as template for our own purposes.
 
-> I highly recommend this option. It's easy and fast to start with.
+> I recommend this option as its really simple and fast to start with.
 {: .prompt-tip }
 
 ### Fork from repo jekyll-theme-chirpy
-I went with this option at first, because I overlooked another, so much easier way. Took me some time to realise this. 
+I went with this option at first, because I overlooked other, so much easier way. Took me some time to realise this. 
 
 This codebase is more sophisticated. And it's not because of its size. It has bigger variety of elements. The js files, template files for pages, already built structure of these, combined, depending on each other.
 I managed to run it locally and even deploy it, but in the end I got annoyed by bunch of things that weren't working. For example, the table of contents lost its animation effects. Or deploy scripts throwing errors at the beginnig, refusing to become green.
 I've probably done at least few noobish mistakes, but that's how it is if you are completely unfamiliar with the tool you are using. 
 
-> For more advanced users surely. Or users by accident choosing this option. Or everyone else who can't miss the opportunity to go the hard way :D
+> For more advanced users surely. Or users by accident choosing this option, like me. Or everyone else who can't miss the opportunity to go the hard way :D
 {: .prompt-warning }
 
 ## Install what's required to run Jekyll locally
@@ -36,9 +37,8 @@ Yet, I see that my pipelines use Ruby 3.2.1 on Ubuntu 22.04 and report no errors
 ### RubyGems
 Nothing unexpected here. Just follow the installation guide.
 ### GCC and Make
-Windows users can totally skip this part. Their OS only needs Ruby and RubyGems. But I will still check for anything odd on my other machine,
-that runs on Ubuntu. 
-
+I you are using Windows, like me right now, you can totally skip this part. Windows only needs Ruby and RubyGems. 
+I will still check for anything odd on my other machine that runs on Ubuntu.
 ## Replace defaults in _config.yml
 At this point all should be fine and set with your cloned template and Ruby environment necessary to launch Jekyll server.
 To start Jekyll server and see the outcome, run in the terminal:
@@ -66,9 +66,8 @@ it will not be listed among branches when called `git branch`.
 git commit -am "init commit of orphan branch"
 git push –u origin <branch name>
 ```
-And that's it. Branch is prepared. 
-Last thing to do is to change a publishing branch, well documented with screenshots on [**github docs**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-After few moments your static page should be available on github domain https://<<some-username-here>>.github.io.
+When branch is prepared, last thing to do is to change a publishing branch. It is well documented with screenshots here on [**github docs**](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+After few moments, when any commit lands on pointed for publishing branch, Github Actions will run with Build and Deploy jobs. 
+Then your site should be available on github domain https://<<some-username-here>>.github.io.
 
 Well, that's all :) 
