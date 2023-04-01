@@ -96,10 +96,10 @@ comments:
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: paxnamra/paxnamra.github.io              # <gh-username>/<repo>
-    repo_id:
+    repo: paxnamra/paxnamra.github.io
+    repo_id: R_kgDOJMgvtQ
     category: Announcements
-    category_id:
+    category_id: DIC_kwDOJMgvtc4CVd3C
     mapping:           # optional, default to 'pathname'
     input_position:    # optional, default to 'bottom'
     lang:              # optional, default to the value of `site.lang`
